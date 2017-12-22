@@ -153,14 +153,12 @@ $(document).ready(function() {
   var scrollTop = $(".scrollTop");
 
   $(window).scroll(function() {
-    var top = $(this).scrollTop(); // jQuery Function Number 6
-    if (top > 50) {
-      $(".scrollTop").css("opacity", "1");
-
+    var top = $(window).scrollTop(); // jQuery Function Number 6
+    if (top > 100) {
+      $(".scrollTop").css("display", "block");
     } else {
-      $(".scrollTop").css("opacity", "0");
+      $(".scrollTop").css("opacity", "none");
     }
-
   }); 
 
   $(".scrollTop").click(function() {

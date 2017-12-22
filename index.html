@@ -23,15 +23,18 @@
 
     <!-- typeit plugin -->
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+    <!-- responsive  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>The Life of Shirley</title>
     <link rel="icon" href="favicon.png">
 </head>
 
 <body>
-
-
-
     <div id="fullpage">
+<!-- ------------------------------------------- EXPERIENCE ------------------------------------------------------------- -->
+
         <div class="section">
             <div class="row">
                     <div class="column">
@@ -87,15 +90,17 @@
                 <div class="downArrow"><img src="assets/img/down.png" height="40"/></div>
 
         </div>
+<!-- ------------------------------------------- ABOUT ------------------------------------------------------------- -->
 
-<!-- style="max-width: 350px;height:auto; -->
         <div class="section active">
             <div class="slide" data-anchor="about">
-                    <div id="aboutImage"><img src="assets/img/img2.jpg" width="350", height="350"></div>
+                <div class="aboutImageContainer">
+                    <div id="aboutImage"></div>
+                </div>
                 <div class="aboutContainer">
                     <div class="aboutBlurb"><div class="helloThere">HELLO THERE.</div>
                         <p>My name is Shirley and I'm from sunny Los Angeles. I'm a second year at <a href="https://eecs.berkeley.edu/" target="_blank"><b>UC Berkeley</b></a>  studying Electrical Engineering and Computer Science with an emphasis on Computer Science. I'm still figuring out what I want to do in the field, but I'm interested in web and mobile development, machine learning, and NLP.</p>
-                        <p>At Berkeley, I'm a software engineer for our student government <a href="https://www.asucocto.org" target="_blank" class="des"><b>Office of the Chief Technology Officer</b></a> and I'm the historian officer for <a href="https://swe.berkeley.edu/" target="_blank"><b>Society of Women Engineers</b></a>. Next summer, I'll be interning at <a href="https://usa.visa.com/" target="_blank"><b>Visa</b> as a software engineering intern</a>!</p>
+                        <p>At Berkeley, I'm a software engineer for our student government <a href="https://www.asucocto.org" target="_blank" class="des"><b>Office of the Chief Technology Officer</b></a> and I'm the historian officer for <a href="https://swe.berkeley.edu/" target="_blank"><b>Society of Women Engineers</b></a>. This summer, I'll be in interning at <a href="https://usa.visa.com/" target="_blank"><b>Visa</b> as a software engineering intern</a>!</p>
                         <p>I'm passionate about supporting women in tech, especially after being a scholar for supermodel Karlie Kloss's coding camp, <a href="https://www.kodewithklossy.com/" target="_blank"><b>Kode With Klossy</b></a>.</p>
                         <p>On my spare time, catch me playing volleyball, occasionally, ping-pong, taking photos, drinking boba or snuggled up watching a good ol' movie. Oh, and feel free to contact me at <a href="mailto:liushirley@berkeley.edu?Subject=Hey%20Shirley" class="links"><b>liushirley@berkeley.edu</b></a>.</p>
                     </div>
@@ -107,36 +112,37 @@
                         <a href="https://github.com/liushirley" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
                     </div>
                 </div>
-                    <div class="rightArrow"><img src="assets/img/right.png" height="40"/></div>
+                    <div class="rightArrow"></div>
             </div>
 
+<!-- ---------------------------------------------- HOME ---------------------------------------------------------- -->
 
-            <div class="slide active bg" data-anchor="home">
-                <div class="mainpage">
+            <div class="slide active" data-anchor="home">
+                    <div class="bg"></div>
                     <div class="category moveUp">EXPERIENCE</div>
-                        <div class="middleSection">
-                            <div class="categoryside moveLeft">ABOUT</div>
+                            <div class="category moveLeft">ABOUT</div>
 
                             <div class="descriptionbox">
-                                <div class="description d1">WELCOME</div>
-                                <div class="description d2">TO</div>
+                                <div class="d1">WELCOME</div>
+                                <div class="d2">TO</div>
                                 <br>
-                                <div class="description d3">THE</div>
+                                <div class="d3">THE</div>
                                 <br>
-                                <div class="description d4">LIFE</div>
+                                <div class="d4">LIFE</div>
                                 <br>
-                                <div class="description d5">OF</div>
+                                <div class="d5">OF</div>
                             </div>
+
                             <div class="nameType">
                                 <div class="name">SHIRLEY LIU</div>
-                                <div class="description d6 type"></div>
+                                <div class="type"></div>
                             </div>
-                            <div class="categoryside moveRight">PROJECTS</div>                  
-                        </div>
-                    <div class="category moveDown">BLOG</div>
-                </div>
+
+                            <div class="category moveRight">PROJECTS</div> 
+                            <div class="category moveDown">BLOG</div>
             </div>
 
+<!-- --------------------------------------------- PROJECTS ----------------------------------------------------------- -->
 
             <div class="slide" data-anchor="projects">
                 <div class="leftArrow"><img src="assets/img/left.png" height="40"/></div>
@@ -189,14 +195,13 @@
                         <div class="thumbnailCaption">BearMaps</div>
                     </div>
                 </div>
-
-                
             </div>
-
         </div>
 
+<!-- ------------------------------------------------ BLOG -------------------------------------------------------- -->
 
         <div class="section fp-auto-height-responsive">
+            <a name="top"></a>
             <div class="upArrow"><img src="assets/img/up.png" height="40"/></div>
             <br>
             <br>
@@ -247,7 +252,6 @@
             <br>
             <br>
             <div class="postText">This semester, I got the opportunity to attend the SWE National Conference in Austin, Texas funded by our SWE chapter. It was five days of delicious food, seeing empowering women speak about working in the workplace, discovering new engineering companies I have never heard of, getting lots of tech company swag, and of course, sightseeing in the beautiful city with other SWE members. I finally got to try the legendary Voodoo Doughnuts after my history teacher, Mr. Madrid, recommended it to me in high school. Since the conference was a week before Halloween, I experienced the Day of the Dead parade on the streets of Austin, and at night, the bustling city dressed up in costumes in the freezing cold.</div>
-
             <br>
             <br>
             <br>
@@ -258,7 +262,6 @@
             <br>
             <br>
             <br>
-
             <div class="date">October 5th, 2017</div>
             <br>
             <br>
@@ -311,12 +314,14 @@
             <br>
             <br>
 
-            <div class="scrollTop">TOP</div>
+            <div class="scrollTop"><a href="#top"><div class="white">TOP</div></a></div>
             <div class="postText">created by <b>Shirley Liu</b>.</div>
             <br>
 
 
         </div>
     </div>    
+<!-- -------------------------------------------------------------------------------------------------------- -->
+
 </body>
 </html>
