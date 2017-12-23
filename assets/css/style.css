@@ -1,14 +1,22 @@
 /*--------------------- HOME PAGE ----------------------------*/
 
 .bg {
-    background-image: url("edit.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: fadeIn 3.9s;
-    animation-timing-function: cubic-bezier(1,-0.5,1,1);
+  animation: fadeIn 3.9s;
+  animation-timing-function: cubic-bezier(1,-0.5,1,1);
+}
 
+.container {
+  width: 10%;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  top: 50%;
+  margin-top: -6%;
+}
+
+.container img {
+    width: 100%;
+    display: block;
 }
 
 .category {
@@ -45,7 +53,6 @@
   transform: rotate(-90deg);
   position: absolute;
   top: 48%;
-  /*float: left;*/
   left: 33%;
   font-size: 2vw;
   animation: fadeIn 5s;
@@ -67,7 +74,7 @@
 .moveRight{
   position: absolute;
   float: right;
-  top: 48%;
+  top: 49%;
   right: 32%;
   transform: rotate(90deg);
   font-size: 2vw;
