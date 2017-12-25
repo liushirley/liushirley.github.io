@@ -150,16 +150,16 @@ $(document).ready(function() {
   });
 
 
-  var scrollTop = $(".scrollTop");
+  // var scrollTop = $(".scrollTop");
 
-  $(window).scroll(function() {
-    var top = $(window).scrollTop(); // jQuery Function Number 6
-    if (top > 100) {
-      $(".scrollTop").css("display", "block");
-    } else {
-      $(".scrollTop").css("opacity", "none");
-    }
-  }); 
+  // $(window).scroll(function() {
+  //   var top = $(window).scrollTop(); // jQuery Function Number 6
+  //   if (top > 100) {
+  //     $(".scrollTop").css("display", "block");
+  //   } else {
+  //     $(".scrollTop").css("opacity", "none");
+  //   }
+  // }); 
 
   $(".scrollTop").click(function() {
     var scrollable = $('.fp-section').find('.fp-scrollable'); 
