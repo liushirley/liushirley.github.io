@@ -197,37 +197,36 @@
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 2.4vh;
+  line-height: 140%;
 }
 
 .caption p {
-  padding: 10px;
+  padding: 3%;
   overflow: hidden;
-  max-height: 160px;
+  /*max-height: 200px;*/
 }
 
 .caption1 {
-  margin-top: 16px;
+  margin-top: 4%;
   font-weight: 700;
   font-size: 1.1vw;
 }
 
 .caption2 {
-  margin-bottom: 4px;
+  margin-bottom: 1.5%;
   font-style: italic;
   font-size: 0.9vw;
-
 }
 
 .caption3 {
   text-align: left;
-  margin-left: 18px;
-  margin-right: 18px;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-bottom: 3px;
 }
 
 .thumbnail:hover > .caption {
-  height: 160px;
+  height: 60%;
 }
 
 .thumbnailCaption {
@@ -235,7 +234,7 @@
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  margin-top: 3px;
+  margin-top: 2%;
   color: #808080;
 
 }
