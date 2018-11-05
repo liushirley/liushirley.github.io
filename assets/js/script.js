@@ -149,6 +149,49 @@ $(document).ready(function() {
 
   });
 
+/*-------------------------------------------------*/
+
+  $("#carousel-next2").click(function() {
+    let temp = parseInt($('#carousel2').css('margin-left').replace("px", ""));
+    if (temp <= -4800) {
+      $("#carousel2").css("margin-left", -4800);
+    } else {
+      $("#carousel2").css("margin-left", temp - 960);
+    }
+  });
+
+  $("#carousel-prev2").click(function() {
+    let t = parseInt($('#carousel2').css('margin-left').replace("px", ""));
+    if (t >= 0) {
+      $("#carousel2").css("margin-left", 0);
+    } else {
+      $("#carousel2").css("margin-left", t + 960);
+    }
+  });
+
+
+  $("#carousel2").hover(
+    function() {
+      $("#carousel-next2").fadeIn(200);
+      $("#carousel-prev2").fadeIn(200);
+    }, function() {
+      $("#carousel-next2").fadeOut(200);
+      $("#carousel-prev2").fadeOut(200);
+    }
+  );
+
+  $("#carousel-prev2").hover(function() {
+    $("#carousel-prev2").fadeIn(200);
+    $("#carousel-next2").fadeIn(200);
+
+  });
+
+  $("#carousel-next2").hover(function() {
+    $("#carousel-next2").fadeIn(200);
+    $("#carousel-prev2").fadeIn(200);
+
+  });
+
 
   // var scrollTop = $(".scrollTop");
 
