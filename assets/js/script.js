@@ -56,13 +56,13 @@ $(document).ready(function() {
   $.fn.fullpage.setScrollingSpeed(1700);
 
   $('.type').typeIt({
-     strings: ["Software Engineer", "Student", "A dork", "Boba Addict", "A tall human bean"],
-     speed: 175,
+     strings: ["Software Engineer", "Student", "A dork", "Boba Addict", "A tall human bean", "An amateur vlogger", "A ping-pong aficionado"],
+     speed: 185,
      breakLines: false,
      loop: true,
      startDelay: 150,
-     deleteDelay: 1000,
-     loopDelay: 900
+     deleteDelay: 1500,
+     loopDelay: 1000
   });
 
   $("#carousel-next").click(function() {
