@@ -56,7 +56,7 @@ $(document).ready(function() {
   $.fn.fullpage.setScrollingSpeed(1700);
 
   $('.type').typeIt({
-     strings: ["Software Engineer", "Student", "A dork", "Boba Addict", "A tall human bean", "An amateur vlogger", "A ping-pong aficionado"],
+     strings: ["Software Engineer", "Student", "A dork", "Boba Addict", "A tall human bean", "Amateur Vlogger", "Ping-pong Aficionado"],
      speed: 185,
      breakLines: false,
      loop: true,
